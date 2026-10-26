@@ -13,8 +13,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!lesson-2/src/main/**/bin/
+!lesson-2/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/

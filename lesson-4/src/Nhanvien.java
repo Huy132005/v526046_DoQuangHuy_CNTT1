@@ -1,39 +1,8 @@
+import java.util.Scanner;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Scanner;
-
-class Nguoi {
-    private String hoTen;
-    private int tuoi;
-
-    public Nguoi() {
-    }
-
-    public Nguoi(String hoTen, int tuoi) {
-        this.hoTen = hoTen;
-        this.tuoi = tuoi;
-    }
-
-    public String getHoTen() {
-        return hoTen;
-    }
-
-    public int getTuoi() {
-        return tuoi;
-    }
-
-    public void nhap(Scanner scanner) {
-        System.out.print("Ho ten: ");
-        hoTen = scanner.nextLine();
-        System.out.print("Tuoi: ");
-        tuoi = Integer.parseInt(scanner.nextLine());
-    }
-
-    public void xuat() {
-        System.out.printf("Ho ten: %s | Tuoi: %d", hoTen, tuoi);
-    }
-}
 
 public class Nhanvien extends Nguoi {
     private int snct;

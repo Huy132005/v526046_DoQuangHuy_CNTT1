@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainHinhTron {
     public static void main(String[] args) {
 
         HinhTron ht1 = new HinhTron(1, 1, 3.5);
@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Dien tich hinh tron 1: " + ht1.DT());
         System.out.println("Dien tich hinh tron 2: " + ht2.DT());
 
-        //Hãy cho biết hình nào có diện tích lớn hơn
+        //HĂ£y cho biáº¿t hĂ¬nh nĂ o cĂ³ diá»‡n tĂ­ch lá»›n hÆ¡n
         if (ht1.DT() > ht2.DT()) {
             System.out.println("Hinh tron 1 co dien tich lon hon hinh tron 2");
         } else if (ht1.DT() < ht2.DT()) {
@@ -21,7 +21,7 @@ public class Main {
             System.out.println("Hai hinh tron co dien tich bang nhau");
         }
 
-        //Nhập vào 1 giá trị d, tịnh tiến hình tròn theo giá trị d
+        //Nháº­p vĂ o 1 giĂ¡ trá»‹ d, tá»‹nh tiáº¿n hĂ¬nh trĂ²n theo giĂ¡ trá»‹ d
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap gia tri d: ");
@@ -32,3 +32,4 @@ public class Main {
         System.out.println("Hinh tron 2 sau khi tinh tien: " + ht2);
     }
 }
+

@@ -47,7 +47,7 @@ class ChuNhat extends Hinh {
 }
 
 
-class HinhTron extends Hinh {
+class HinhTronOOP extends Hinh {
     double r;
 
     @Override
@@ -88,7 +88,7 @@ public class OOP {
                     ds[i] = new ChuNhat();
                     break;
                 case 3:
-                    ds[i] = new HinhTron();
+                    ds[i] = new HinhTronOOP();
                     break;
                 default:
                     System.out.println("Lua chon khong hop le!");
